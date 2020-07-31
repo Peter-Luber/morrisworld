@@ -6,3 +6,7 @@
 .Img {
   width: 100%;
 }
+
+.Img:active {
+  opacity: 0.5;
+}
