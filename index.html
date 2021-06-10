@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/FlowerOfLife.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Morris World" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/FlowerOfLife.svg" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>morrisworld</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="navigation">
+        <div class="navigation-left">
+            <a href="#">tunes</a>
+            <a href="#">beans</a>
+            <a href="#">rags</a>
+        </div>
+        <div class="navigation-center">
+            <img src="FlowerOfLife.svg" alt="flower of life" id="FlowerOfLife">
+        </div>
+        <div class="navigation-right">
+            <a href="#"><img src="images/shopping-bag.png" alt=""></a>
+            <button class="login-btn" href="#">Login</button>
+        </div>
+    </div>
+
+    <!-- Slider Wrapper -->
+    <div class="css-slider-wrapper">
+        <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+        <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+        <input type="radio" name="slider" class="slide-radio3" id="slider_3">
+        <input type="radio" name="slider" class="slide-radio4" id="slider_4">
+
+        <!-- Slider Pagination -->
+        <div class="slider-pagination">
+            <label for="slider_1" class="page1"></label>
+            <label for="slider_2" class="page2"></label>
+            <label for="slider_3" class="page3"></label>
+            <label for="slider_4" class="page4"></label>
+        </div>
+
+        <!-- Slider #1 -->
+        <div class="slider slide-1">
+            <img src="img/1.jpg" alt="">
+            <div class="slider-content">
+                <button type="button" class="buy-now-btn" name="button">$130</button>
+            </div>
+            <div class="number-pagination">
+                <span>1</span>
+            </div>
+        </div>
+
+        <!-- Slider #2 -->
+        <div class="slider slide-2">
+            <img src="img/7.png" alt="">
+            <div class="slider-content">
+                <button type="button" class="buy-now-btn" name="button">$130</button>
+            </div>
+            <div class="number-pagination">
+                <span>2</span>
+            </div>
+        </div>
+
+        <!-- Slider #3 -->
+        <div class="slider slide-3">
+            <img src="img/3.jpg" alt="">
+            <div class="slider-content">
+                <button type="button" class="buy-now-btn" name="button">$130</button>
+            </div>
+            <div class="number-pagination">
+                <span>3</span>
+            </div>
+        </div>
+
+        <!-- Slider #4 -->
+        <div class="slider slide-4">
+            <iframe src="http://goombawave.bandcamp.com/" width="100%" height="100%" frameborder="0"></iframe>
+            <div class="number-pagination">
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+    <noscript>Please enable JavaScript to run this site.</noscript>
+    <div id="root"></div>
+</body>
+
+</html>
